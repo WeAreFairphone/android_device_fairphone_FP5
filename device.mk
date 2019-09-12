@@ -29,6 +29,9 @@ PRODUCT_PACKAGES += \
     update_verifier \
     update_engine_sideload
 
+# APEX
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
 # Boot Control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti \
