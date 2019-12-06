@@ -38,6 +38,9 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti.recovery \
     android.hardware.boot@1.1-service
 
+# Dalvik
+$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
