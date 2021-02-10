@@ -242,6 +242,11 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc
 
+# IPACM
+PRODUCT_PACKAGES += \
+    ipacm \
+    IPACM_cfg.xml
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
