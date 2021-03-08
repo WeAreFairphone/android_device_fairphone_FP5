@@ -188,6 +188,8 @@ on boot
     chmod 0666 /sys/class/power_supply/battery/user_fcc
     # charge mode fcc
     chmod 0666 /sys/class/power_supply/battery/chgmode_fcc
+    # Disable serial console
+    stop console
 
 on property:vendor.display.lcd_density=560
    setprop dalvik.vm.heapgrowthlimit 256m
