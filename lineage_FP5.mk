@@ -14,6 +14,10 @@ $(call inherit-product, device/fairphone/FP5/device.mk)
 # Inherit from Lineage configuration.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2700
+TARGET_SCREEN_WIDTH := 1224
+
 PRODUCT_BRAND := Fairphone
 PRODUCT_DEVICE := FP5
 PRODUCT_MANUFACTURER := Fairphone
