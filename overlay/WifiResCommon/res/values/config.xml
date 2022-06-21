@@ -11,12 +11,6 @@
          is no longer indicative, and a separate config now exists for each band -->
     <bool name="config_wifi5ghzSupport">true</bool>
 
-    <!-- Enable Aware NDP interface selection on interface that already has network set up.
-     Note: the default AOSP Android does not support multiple networks on the same Aware NDI.
-     Enabling this configuration will restore legacy behavior but may result in incorrect behavior.
-     -->
-    <bool name="config_wifiAllowMultipleNetworksOnSameAwareNdi">true</bool>
-
     <!-- Wifi driver supports 6GHz band for softap when chip support 6GHz -->
     <bool name="config_wifiSoftap6ghzSupported">true</bool>
 
