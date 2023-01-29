@@ -82,7 +82,7 @@ vendor/etc/audio/sku_yupik/mixer_paths_yupikidp.xml
 vendor/etc/audio/sku_yupik/r_submix_audio_policy_configuration.xml
 vendor/etc/audio/sku_yupik/sound_trigger_mixer_paths_yupikidp.xml
 vendor/etc/audio/sku_yupik/sound_trigger_platform_info.xml
-vendor/etc/audio/sku_yupik_qssi/audio_policy_configuration.xml
+vendor/etc/audio/sku_yupik_qssi/audio_policy_configuration.xml:vendor/etc/audio/sku_yupik/audio_policy_configuration.xml
 
 # Audio Firmware
 vendor/firmware/aw882xx_acf.bin
