@@ -68,6 +68,22 @@ vendor/lib/rfsa/adsp/weak_refs.so
 # ANT+
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
+# Audio (Configs)
+vendor/etc/audio_policy_volumes.xml
+vendor/etc/bluetooth_qti_hearing_aid_audio_policy_configuration.xml
+vendor/etc/default_volume_tables.xml
+vendor/etc/audio/sku_yupik/audio_effects.conf
+vendor/etc/audio/sku_yupik/audio_effects.xml
+vendor/etc/audio/sku_yupik/audio_io_policy.conf
+vendor/etc/audio/sku_yupik/audio_platform_info_intcodec.xml
+vendor/etc/audio/sku_yupik/audio_platform_info_yupikidp.xml
+vendor/etc/audio/sku_yupik/audio_tuning_mixer.txt
+vendor/etc/audio/sku_yupik/mixer_paths_yupikidp.xml
+vendor/etc/audio/sku_yupik/r_submix_audio_policy_configuration.xml
+vendor/etc/audio/sku_yupik/sound_trigger_mixer_paths_yupikidp.xml
+vendor/etc/audio/sku_yupik/sound_trigger_platform_info.xml
+vendor/etc/audio/sku_yupik_qssi/audio_policy_configuration.xml
+
 # Audio Firmware
 vendor/firmware/aw882xx_acf.bin
 
