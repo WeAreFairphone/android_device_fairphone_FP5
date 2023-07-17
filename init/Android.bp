@@ -1,0 +1,17 @@
+//
+// Copyright (C) 2023 E FOUNDATION
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "fstab.default",
+    src: "fstab.default",
+    vendor_ramdisk_available: true,
+}
+
+prebuilt_etc {
+    name: "init.qcom.recovery.rc",
+    src: "init.qcom.recovery.rc",
+    sub_dir: "init",
+    recovery: true,
+}
