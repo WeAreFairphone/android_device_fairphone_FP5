@@ -806,6 +806,9 @@ vendor/lib64/vendor.qti.gnss@3.0.so
 vendor/lib64/vendor.qti.gnss@4.0-service.so
 vendor/lib64/vendor.qti.gnss@4.0.so
 
+# Fingerprint
+vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.lahaina.so
+
 # IMS
 system_ext/app/ImsRcsService/ImsRcsService.apk
 system_ext/app/QtiTelephony/QtiTelephony.apk
