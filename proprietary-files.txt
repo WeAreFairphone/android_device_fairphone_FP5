@@ -497,11 +497,8 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so
 
 # Iris
-vendor/bin/hw/vendor.pixelworks.hardware.display.iris-service
 vendor/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service
-vendor/etc/init/vendor.pixelworks.hardware.display.iris-service.rc
 vendor/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc
-vendor/etc/vintf/manifest/vendor.pixelworks.hardware.display.iris-service.xml
 vendor/etc/vintf/manifest/vendor.pixelworks.hardware.feature.irisfeature-service.xml
 vendor/lib64/libpwirisIoctlWrapper.so
 vendor/lib64/libpwirisPCS.so
