@@ -68,6 +68,9 @@ vendor/lib/rfsa/adsp/weak_refs.so
 # ANT+
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
+# Audio Firmware
+vendor/firmware/aw882xx_acf.bin
+
 # Audio libraries
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libqcbassboost.so
