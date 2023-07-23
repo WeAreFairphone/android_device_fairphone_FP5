@@ -988,6 +988,21 @@ vendor/lib64/libmmosal.so
 # Native public libraries
 vendor/etc/public.libraries.txt
 
+# NFC
+vendor/bin/hw/android.hardware.nfc@1.2-service-st
+vendor/etc/init/android.hardware.nfc@1.2-service-st.rc
+vendor/firmware/st21nfc_fw7.bin
+vendor/lib64/nfc_nci.st21nfc.st.so
+
+# NFC (Configs)
+vendor/etc/libnfc-hal-st.conf
+vendor/etc/libnfc-nci.conf
+vendor/etc/st21nfc_conf.txt
+
+# NFC (Firmware)
+vendor/firmware/st21nfc_fw.bin
+vendor/firmware/st21nfc_fw7.bin
+
 # OMX
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
