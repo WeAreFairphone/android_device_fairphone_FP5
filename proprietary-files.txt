@@ -572,6 +572,15 @@ vendor/lib64/vendor.qti.ims.rcsuce@1.2.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so
 
+# IPA Firmware
+vendor/firmware/yupik_ipa_fws.b00
+vendor/firmware/yupik_ipa_fws.b01
+vendor/firmware/yupik_ipa_fws.b02
+vendor/firmware/yupik_ipa_fws.b03
+vendor/firmware/yupik_ipa_fws.b04
+vendor/firmware/yupik_ipa_fws.elf
+vendor/firmware/yupik_ipa_fws.mdt
+
 # Iris
 vendor/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service
 vendor/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc
