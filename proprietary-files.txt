@@ -915,6 +915,29 @@ vendor/lib64/vendor.pixelworks.hardware.feature@1.0.so
 vendor/lib64/libpwirisfeature.so
 vendor/lib64/libpwirishalwrapper.so
 
+# Iris (Configs)
+vendor/etc/inparm/iris6/inParm1.txt
+vendor/etc/inparm/iris6/inParm20.txt
+vendor/etc/inparm/iris6/inParm21.txt
+vendor/etc/inparm/iris6/inParm22.txt
+vendor/etc/inparm/iris6/inParm23.txt
+vendor/etc/inparm/iris6/inParm30.txt
+vendor/etc/inparm/iris6/inParm31.txt
+vendor/etc/inparm/iris6/inParm32.txt
+vendor/etc/inparm/iris6/inParm33.txt
+vendor/etc/inparm/iris6/inParm4.txt
+vendor/etc/inparm/iris6/inParm5.txt
+vendor/etc/inparm/iris6/inParm6.txt
+vendor/etc/inparm/iris6/mcfCheck.txt
+vendor/etc/inparm/iris6/mcf.txt
+vendor/etc/inparm/iris6/pxlw_iris6.mcf
+
+# Iris (Firmware)
+vendor/firmware/iris6_ccf1.fw
+vendor/firmware/iris6_ccf2.fw
+vendor/firmware/iris6_ccf3.fw
+vendor/firmware/iris6.fw
+
 # IRQ balance
 vendor/bin/msm_irqbalance
 vendor/etc/msm_irqbalance.conf
