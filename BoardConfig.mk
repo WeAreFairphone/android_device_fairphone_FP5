@@ -82,3 +82,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # Security
 VENDOR_SECURITY_PATCH := 2023-08-05
+
+# Include the proprietary files BoardConfig.
+include vendor/fairphone/FP5/BoardConfigVendor.mk
