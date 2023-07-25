@@ -32,6 +32,50 @@ PRODUCT_PACKAGES += \
 # APEX
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# Audio (Hardware)
+PRODUCT_PACKAGES += \
+    audio.primary.lahaina \
+    audio.usb.default \
+    audio.r_submix.default \
+    sound_trigger.primary.lahaina
+
+PRODUCT_PACKAGES += audioadsprpcd
+
+# Audio (HIDL)
+PRODUCT_PACKAGES += \
+    android.hardware.audio@6.0-impl \
+    android.hardware.audio.effect@6.0-impl \
+    android.hardware.audio.service \
+    android.hardware.soundtrigger@2.3-impl
+
+# Audio (Extensions)
+PRODUCT_PACKAGES += \
+    liba2dpoffload \
+    libbatterylistener \
+    libcirrusspkrprot \
+    libcomprcapture \
+    libexthwplugin \
+    libhdmiedid \
+    libhfp \
+    libsndmonitor \
+    libssrec \
+    libspkrprot
+
+# Audio (SoundFX)
+PRODUCT_PACKAGES += \
+    libaudiopreprocessing \
+    libbundlewrapper \
+    libdownmix \
+    libdynproc \
+    libeffectproxy \
+    libldnhncr \
+    libqcompostprocbundle \
+    libqcomvisualizer \
+    libqcomvoiceprocessing \
+    libreverbwrapper \
+    libvisualizer \
+    libvolumelistener
+
 # Boot Control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti \
