@@ -319,6 +319,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
     FrameworksResCommon \
+    FrameworksResTarget \
     SystemUIResCommon \
     TelephonyResCommon \
     WifiResCommon \
