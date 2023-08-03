@@ -315,6 +315,10 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libstagefrighthw
 
+# Overlay
+PRODUCT_PACKAGES += \
+    CarrierConfigResCommon
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
