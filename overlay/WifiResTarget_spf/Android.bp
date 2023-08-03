@@ -1,9 +1,10 @@
 //
 // Copyright (C) 2022 The LineageOS Project
+// Copyright (C) 2023 E FOUNDATION
 // SPDX-License-Identifier: Apache-2.0
 //
 
 runtime_resource_overlay {
-    name: "WifiResTarget",
+    name: "WifiResTarget_spf",
     vendor: true,
 }

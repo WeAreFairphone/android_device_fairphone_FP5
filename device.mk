@@ -321,7 +321,8 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon \
     SystemUIResCommon \
     TelephonyResCommon \
-    WifiResCommon
+    WifiResCommon \
+    WifiResTarget_spf
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
