@@ -317,7 +317,11 @@ PRODUCT_PACKAGES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    CarrierConfigResCommon
+    CarrierConfigResCommon \
+    FrameworksResCommon \
+    SystemUIResCommon \
+    TelephonyResCommon \
+    WifiResCommon
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
