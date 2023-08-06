@@ -1,0 +1,180 @@
+# Audio
+persist.vendor.audio.fluence.voicerec=false
+persist.vendor.audio.spv4.enable=false
+persist.vendor.audio.vbat.enabled=false
+ro.vendor.audio.sdk.fluencetype=fluence
+aaudio.hw_burst_min_usec=2000
+aaudio.mmap_exclusive_policy=2
+aaudio.mmap_policy=2
+persist.vendor.audio.fluence.speaker=true
+persist.vendor.audio.fluence.voicecall=true
+persist.vendor.audio.fluence.voicecomm=true
+persist.vendor.audio.ha_proxy.enabled=true
+persist.vendor.audio.voicecall.speaker.stereo=true
+vendor.audio.adm.buffering.ms=2
+vendor.audio.feature.a2dp_offload.enable=true
+vendor.audio.feature.afe_proxy.enable=true
+vendor.audio.feature.battery_listener.enable=true
+vendor.audio.feature.compress_in.enable=true
+vendor.audio.feature.compress_meta_data.enable=true
+vendor.audio.feature.concurrent_capture.enable=true
+vendor.audio.feature.custom_stereo.enable=true
+vendor.audio.feature.display_port.enable=true
+vendor.audio.feature.dynamic_ecns.enable=true
+vendor.audio.feature.fluence.enable=true
+vendor.audio.feature.fm.enable=true
+vendor.audio.feature.hdmi_edid.enable=true
+vendor.audio.feature.hdmi_passthrough.enable=true
+vendor.audio.feature.hfp.enable=true
+vendor.audio.feature.incall_music.enable=true
+vendor.audio.feature.keep_alive.enable=true
+vendor.audio.feature.kpi_optimize.enable=true
+vendor.audio.feature.multi_voice_session.enable=true
+vendor.audio.feature.power_mode.enable=true
+vendor.audio.feature.ras.enable=true
+vendor.audio.feature.snd_mon.enable=true
+vendor.audio.feature.spkr_prot.enable=true
+vendor.audio.feature.src_trkn.enable=true
+vendor.audio.feature.ssrec.enable=true
+vendor.audio.feature.usb_offload.enable=true
+vendor.audio.feature.usb_offload_burst_mode.enable=true
+vendor.audio.feature.vbat.enable=true
+vendor.audio.flac.sw.decoder.24bit=true
+vendor.audio.hal.boot.timeout.ms=20000
+vendor.audio.hal.output.suspend.supported=true
+vendor.audio.hw.aac.encoder=true
+vendor.audio.offload.buffer.size.kb=32
+vendor.audio.offload.gapless.enabled=true
+vendor.audio.offload.track.enable=true
+vendor.audio.spkr_prot.tx.sampling_rate=48000
+vendor.audio.use.sw.alac.decoder=true
+vendor.audio.use.sw.ape.decoder=true
+vendor.audio.use.sw.mpegh.decoder=true
+vendor.audio.volume.headset.gain.depcal=true
+vendor.audio_hal.in_period_size=144
+vendor.audio_hal.period_multiplier=3
+vendor.audio_hal.period_size=192
+vendor.voice.path.for.pcm.voip=true
+
+# Bluetooth
+bluetooth.device.class_of_device=90,2,12
+bluetooth.hardware.power.idle_cur_ma=6
+bluetooth.hardware.power.operating_voltage_mv=3700
+bluetooth.hardware.power.rx_cur_ma=28
+bluetooth.hardware.power.tx_cur_ma=36
+bluetooth.profile.a2dp.source.enabled?=true
+bluetooth.profile.asha.central.enabled?=true
+bluetooth.profile.avrcp.target.enabled?=true
+bluetooth.profile.bas.client.enabled?=true
+bluetooth.profile.gatt.enabled?=true
+bluetooth.profile.hfp.ag.enabled?=true
+bluetooth.profile.hid.device.enabled?=true
+bluetooth.profile.hid.host.enabled?=true
+bluetooth.profile.map.server.enabled?=true
+bluetooth.profile.opp.enabled?=true
+bluetooth.profile.pan.nap.enabled?=true
+bluetooth.profile.pan.panu.enabled?=true
+bluetooth.profile.pbap.server.enabled?=true
+bluetooth.profile.sap.server.enabled?=true
+persist.bluetooth.a2dp_offload.disabled=false
+persist.vendor.bt.aac_frm_ctl.enabled=true
+persist.vendor.bt.aac_vbr_frm_ctl.enabled=true
+persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptiver2
+persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true
+persist.vendor.qcom.bluetooth.aptxadaptiver2_1_support=true
+ro.bluetooth.a2dp_offload.supported=true
+
+# Chipset
+ro.soc.manufacturer=Qualcomm
+
+# Crypto
+ro.crypto.dm_default_key.options_format.version=2
+ro.crypto.volume.metadata.method=dm-default-key
+
+# DPM
+persist.vendor.dpm.idletimer.mode=default
+persist.vendor.dpmhalservice.enable=1
+
+# Display
+vendor.display.comp_mask=0
+vendor.display.disable_excl_rect=0
+vendor.display.disable_excl_rect_partial_fb=1
+vendor.display.disable_hw_recovery_dump=1
+vendor.display.disable_offline_rotator=1
+vendor.display.enable_async_powermode=0
+vendor.display.enable_optimize_refresh=1
+
+# DRM
+drm.service.enabled=true
+
+# FRP
+ro.frp.pst=/dev/block/bootdevice/by-name/frp
+
+# Gatekeeper
+vendor.gatekeeper.disable_spu=true
+
+# Graphics
+debug.sf.disable_client_composition_cache=1
+debug.sf.enable_gl_backpressure=1
+debug.sf.high_fps_early_gl_phase_offset_ns=-2000000
+debug.sf.high_fps_early_phase_offset_ns=-4000000
+debug.sf.high_fps_late_app_phase_offset_ns=1000000
+debug.sf.high_fps_late_sf_phase_offset_ns=-2000000
+debug.sf.latch_unsignaled=1
+ro.hardware.egl=adreno
+ro.hardware.vulkan=adreno
+ro.opengles.version=196610
+ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
+ro.surface_flinger.has_HDR_display=true
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+ro.surface_flinger.max_virtual_display_dimension=4096
+ro.surface_flinger.protected_contents=true
+ro.surface_flinger.use_color_management=true
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
+ro.surface_flinger.wcg_composition_dataspace=143261696
+
+# Incremental FS
+ro.incremental.enable=yes
+
+# Media
+debug.stagefright.ccodec=4
+debug.stagefright.omx_default_rank=0
+
+# Netflix
+ro.netflix.bsp_rev=Q875-32408-1
+
+# OEM Unlock
+ro.oem_unlock_supported=1
+
+# Perf
+ro.vendor.extension_library=libqti-perfd-client.so
+
+# QTEE
+persist.vendor.qteeconnector.retrying_interval=30
+persist.vendor.qteeconnector.retrying_timeout=2000
+
+# Radio
+persist.vendor.radio.custom_ecc=1
+persist.vendor.radio.procedure_bytes=SKIP
+persist.vendor.radio.rat_on=combine
+ro.telephony.default_network=33,33
+
+# Sensors
+persist.vendor.sensors.allow_non_default_discovery=true
+persist.vendor.sensors.on_change_sample_period=true
+persist.vendor.sensors.sync_request=true
+
+# USB
+sys.usb.mtp.batchcancel=1
+vendor.usb.diag.func.name=ffs
+vendor.usb.dpl.inst.name=dpl
+vendor.usb.qdss.inst.name=qdss_sw
+vendor.usb.rmnet.func.name=gsi
+vendor.usb.rmnet.inst.name=rmnet
+vendor.usb.rndis.func.name=gsi
+vendor.usb.use_ffs_mtp=1
+vendor.usb.use_gadget_hal=0
+
+# Zygote
+zygote.critical_window.minute=10e
