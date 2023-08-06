@@ -674,6 +674,10 @@ vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.esepowermanager@1.1.so
 
+# Euicc
+-app/T2mEuiccOverlay/T2mEuiccOverlay.apk
+-priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
+
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
