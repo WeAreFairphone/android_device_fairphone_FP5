@@ -47,8 +47,21 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
+    init.class_main.sh \
+    init.qcom.early_boot.sh \
+    init.qcom.sh \
+    init.qcom.post_boot.sh \
+    init.qcom.usb.sh
+
+PRODUCT_PACKAGES += \
+    fstab.default \
     fstab.default.vendor_ramdisk \
-    init.qcom.recovery.rc
+    init.qcom.rc \
+    init.qcom.recovery.rc \
+    init.qcom.usb.rc \
+    init.stnfc.rc \
+    init.target.rc \
+    ueventd.qcom.rc
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
