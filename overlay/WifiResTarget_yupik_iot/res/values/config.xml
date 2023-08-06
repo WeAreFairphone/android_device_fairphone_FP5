@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 E FOUNDATION
+     SPDX-License-Identifier: BSD-3-Clause
+-->
+<resources>
+     <!-- Enable SAE (WPA3 personal) for Wifi hotspot (SAP) -->
+     <bool translatable="false" name="config_wifi_softap_sae_supported">true</bool>
+</resources>

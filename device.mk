@@ -322,7 +322,8 @@ PRODUCT_PACKAGES += \
     SystemUIResCommon \
     TelephonyResCommon \
     WifiResCommon \
-    WifiResTarget_spf
+    WifiResTarget_spf \
+    WifiResTarget_yupik_iot
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
