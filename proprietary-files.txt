@@ -1424,6 +1424,13 @@ vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
+# Vibrator (Firmware)
+vendor/firmware/haptic_ram.bin
+vendor/firmware/haptic_rtp.bin
+vendor/firmware/haptic_rtp_lighthouse.bin
+vendor/firmware/haptic_rtp_osc_24K_5s.bin
+vendor/firmware/haptic_rtp_silk.bin
+
 # VPP
 vendor/bin/hw/qconfigservice
 vendor/bin/vppservice
