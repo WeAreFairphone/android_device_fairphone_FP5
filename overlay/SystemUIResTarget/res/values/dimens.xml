@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 E FOUNDATION
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <dimen name="rounded_corner_content_padding">90px</dimen>
+
+    <!-- the padding on the top of the statusbar (usually 0) -->
+    <dimen name="status_bar_padding_top">32px</dimen>
+
+    <!-- the padding on the start of the statusbar -->
+    <dimen name="status_bar_padding_start">0px</dimen>
+
+    <!-- the padding on the end of the statusbar -->
+    <dimen name="status_bar_padding_end">0px</dimen>
+</resources>

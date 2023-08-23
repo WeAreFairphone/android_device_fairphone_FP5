@@ -1,0 +1,9 @@
+//
+// Copyright (C) 2023 E FOUNDATION
+// SPDX-License-Identifier: Apache-2.0
+//
+
+runtime_resource_overlay {
+    name: "SystemUIResTarget",
+    vendor: true,
+}
