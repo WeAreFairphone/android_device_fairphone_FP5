@@ -11,6 +11,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.bt_mac.rc",
+    src: "init.bt_mac.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.stnfc.rc",
     src: "init.stnfc.rc",
     sub_dir: "init/hw",
@@ -50,6 +57,12 @@ prebuilt_etc {
     src: "loggy.rc",
     vendor: true,
     sub_dir: "init/hw",
+}
+
+sh_binary {
+    name: "init.bt_mac.sh",
+    src: "init.bt_mac.sh",
+    vendor: true,
 }
 
 sh_binary {

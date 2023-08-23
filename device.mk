@@ -47,6 +47,7 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
+    init.bt_mac.sh \
     init.class_main.sh \
     init.qcom.early_boot.sh \
     init.qcom.sh \
@@ -56,6 +57,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.default \
     fstab.default.vendor_ramdisk \
+    init.bt_mac.rc \
     init.qcom.rc \
     init.qcom.recovery.rc \
     init.qcom.usb.rc \
