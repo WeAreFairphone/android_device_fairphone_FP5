@@ -385,6 +385,60 @@ int LedVibratorDevice::on(int32_t timeoutMs) {
     char value[32];
     int ret;
 
+    snprintf(file, sizeof(file), "%s/%s", LED_DEVICE, "activate_mode");
+    ret = write_value(file, "0");
+    if (ret < 0)
+       goto error;
+
+    if (timeoutMs <= 50) {
+        snprintf(file, sizeof(file), "%s/%s", LED_DEVICE, "seq");
+        ret = write_value(file, "0x00 0x00");
+        if (ret < 0)
+            goto error;
+
+        snprintf(file, sizeof(file), "%s/%s", LED_DEVICE, "seq");
+        ret = write_value(file, "0x00 0x01");
+        if (ret < 0)
+            goto error;
+
+        snprintf(file, sizeof(file), "%s/%s", LED_DEVICE, "loop");
+        ret = write_value(file, "0x00 0x00");
+        if (ret < 0)
+            goto error;
+
+        snprintf(file, sizeof(file), "%s/%s", LED_DEVICE, "duration");
+        snprintf(value, sizeof(value), "%u\n", timeoutMs);
+        ret = write_value(file, value);
+        if (ret < 0)
+            goto error;
+
+        snprintf(file, sizeof(file), "%s/%s", LED_DEVICE, "brightness");
+        ret = write_value(file, "1");
+        if (ret < 0)
+            goto error;
+
+        return 0;
+
+    } else {
+        snprintf(file, sizeof(file), "%s/%s", LED_DEVICE, "index");
+        ret = write_value(file, "4");
+        if (ret < 0)
+            goto error;
+
+        snprintf(file, sizeof(file), "%s/%s", LED_DEVICE, "duration");
+        snprintf(value, sizeof(value), "%u\n", timeoutMs);
+        ret = write_value(file, value);
+        if (ret < 0)
+            goto error;
+
+        snprintf(file, sizeof(file), "%s/%s", LED_DEVICE, "activate");
+        ret = write_value(file, "1");
+        if (ret < 0)
+            goto error;
+
+        return 0;
+    }
+
     snprintf(file, sizeof(file), "%s/%s", LED_DEVICE, "state");
     ret = write_value(file, "1");
     if (ret < 0)
@@ -415,6 +469,17 @@ int LedVibratorDevice::off()
 
     snprintf(file, sizeof(file), "%s/%s", LED_DEVICE, "activate");
     ret = write_value(file, "0");
+    if (ret < 0)
+        return ret;
+
+    snprintf(file, sizeof(file), "%s/%s", LED_DEVICE, "brightness");
+    ret = write_value(file, "0");
+    if (ret < 0)
+        return ret;
+
+    snprintf(file, sizeof(file), "%s/%s", LED_DEVICE, "index");
+    ret = write_value(file, "1");
+
     return ret;
 }
 
