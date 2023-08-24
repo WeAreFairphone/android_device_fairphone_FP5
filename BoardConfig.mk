@@ -108,8 +108,6 @@ BOARD_KERNEL_CMDLINE := \
     iptable_raw.raw_before_defrag=1 \
     ip6table_raw.raw_before_defrag=1
 
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
-
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_KERNEL_PAGESIZE := 4096
@@ -181,6 +179,10 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # Security
 VENDOR_SECURITY_PATCH := 2023-08-05
+
+# SELinux
+include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Verified Boot
 BOARD_AVB_ENABLE := true

@@ -1,0 +1,32 @@
+# Audio
+/mnt/vendor/persist/factory/audio/aw_cali\.bin                             u:object_r:vendor_persist_audio_file:s0
+
+# Camera
+/dev/stmvl53l1_ranging                                                     u:object_r:vl53l1_device:s0
+/sys/devices/virtual/deviceinfo/device_info/CamNameB                       u:object_r:vendor_sysfs_camera:s0
+/sys/devices/virtual/deviceinfo/device_info/CamNameB2                      u:object_r:vendor_sysfs_camera:s0
+/sys/devices/virtual/deviceinfo/device_info/CamNameF                       u:object_r:vendor_sysfs_camera:s0
+/sys/devices/virtual/deviceinfo/device_info/CamOTPB                        u:object_r:vendor_sysfs_camera:s0
+/sys/devices/virtual/deviceinfo/device_info/CamOTPB2                       u:object_r:vendor_sysfs_camera:s0
+/sys/devices/virtual/deviceinfo/device_info/CamOTPF                        u:object_r:vendor_sysfs_camera:s0
+
+# Emkit Info Nodes
+/sys/emkit/info(/.*)?                                                      u:object_r:vendor_sysfs_emkit:s0
+
+# Fingerprint
+/data/vendor/focaltech(/.*)?                                               u:object_r:fingerprint_data_file:s0
+/dev/focaltech_fp                                                          u:object_r:fingerprint_device:s0
+
+# MAC (Bluetooth)
+/vendor/bin/init\.bt_mac\.sh                                               u:object_r:bt_mac_exec:s0
+/mnt/vendor/persist/t2m_param(/.*)?                                        u:object_r:persist_t2m_param_file:s0
+
+# NFC
+/dev/st21nfc                                                               u:object_r:nfc_device:s0
+/vendor/bin/hw/android\.hardware\.nfc@1\.2-service-st                      u:object_r:hal_nfc_default_exec:s0
+
+# Pixelworks
+/vendor/bin/hw/vendor\.pixelworks\.hardware\.feature\.irisfeature-service  u:object_r:hal_graphics_composer_default_exec:s0
+
+# Vibrator
+/vendor/bin/hw/vendor\.qti\.hardware\.vibrator\.service\.FP5               u:object_r:hal_vibrator_default_exec:s0

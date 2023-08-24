@@ -1,0 +1,10 @@
+type bt_mac, domain;
+type bt_mac_exec, exec_type, vendor_file_type, file_type;
+init_daemon_domain(bt_mac);
+
+allow bt_mac vendor_toolbox_exec:file rx_file_perms;
+
+allow bt_mac mnt_vendor_file:dir search;
+r_dir_file(bt_mac, persist_t2m_param_file)
+
+set_prop(bt_mac, vendor_bluetooth_prop)
