@@ -147,7 +147,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
-TARGET_BOARD_PLATFORM := lito
+TARGET_BOARD_PLATFORM := lahaina
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop

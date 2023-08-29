@@ -15,7 +15,7 @@
 //
 
 cc_library {
-    name: "libgptutils.fairphone_lito",
+    name: "libgptutils.fairphone_lahaina",
     vendor: true,
     recovery_available: true,
     shared_libs: [
