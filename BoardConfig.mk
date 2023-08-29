@@ -80,23 +80,27 @@ BOARD_KERNEL_CMDLINE := \
     androidboot.memcg=1 \
     androidboot.usbcontroller=a600000.dwc3 \
     cgroup.memory=nokmem,nosocket \
+    ip6table_raw.raw_before_defrag=1 \
+    iptable_raw.raw_before_defrag=1 \
     loop.max_part=7 \
     lpm_levels.sleep_disabled=1 \
     msm_rtb.filter=0x237 \
+    pcie_ports=compat \
     service_locator.enable=1 \
-    swiotlb=2048 \
+    swiotlb=0 \
     video=vfb:640x400,bpp=32,memsize=3072000
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_KERNEL_SEPARATED_DTBO := true
-BOARD_BOOT_HEADER_VERSION := 2
+BOARD_BOOT_HEADER_VERSION := 3
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image
-TARGET_KERNEL_SOURCE := kernel/fairphone/sm7225
-TARGET_KERNEL_CONFIG := vendor/lito-perf_defconfig vendor/debugfs.config vendor/fairphone/FP4.config
+TARGET_KERNEL_SOURCE := kernel/fairphone/qcm6490
+TARGET_KERNEL_CONFIG := vendor/fp5-qgki_defconfig vendor/fp5.config
+TARGET_KERNEL_NO_GCC := true
 
 # Kernel modules - Audio
 TARGET_MODULE_ALIASES += \
