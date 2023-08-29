@@ -282,6 +282,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor:64
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-V1-ndk_platform.vendor
+
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
@@ -404,6 +408,10 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.qti
 
+# Trusted UI
+PRODUCT_PACKAGES += \
+    android.hidl.memory.block@1.0.vendor
+
 # Ramdisk
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.default:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.default
@@ -431,7 +439,8 @@ PRODUCT_PACKAGES += \
     init.stnfc.rc \
     init.target.rc \
     fstab.default \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    ueventd-odm.rc
 
 # USB
 PRODUCT_PACKAGES += \
