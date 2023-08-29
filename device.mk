@@ -195,9 +195,8 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     android.hardware.renderscript@1.0-impl \
-    gralloc.lahaina \
+    init.qti.display_boot.rc \
     init.qti.display_boot.sh \
-    memtrack.lahaina \
     libdisplayconfig.qti \
     libdisplayconfig.system.qti \
     libqdMetaData \
