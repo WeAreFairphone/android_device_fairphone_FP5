@@ -1,22 +1,22 @@
 ## Device Picture
-![Fairphone 4](https://i.imgur.com/B0Sy2T7.jpeg)
+![Fairphone 5](https://i.imgur.com/ikYgGSD.jpg)
 
 ## Device Specifications
 
-| Device                   | Fairphone 4                                     |
+| Device                   | Fairphone 5                                     |
 | -----------------------: | :---------------------------------------------- |
-| SoC                      | Qualcomm Snapdragon 750G (SM7225)               |
-| QCOM Board Platform      | lito                                            |
-| CPU                      | (2) x 2.2 GHz Kryo 570 & (6) x 1.8 GHz Kryo 570 |
-| GPU                      | Adreno 619                                      |
-| Memory                   | 6GB / 8GB RAM                                   |
-| Shipping Android version | 11                                              |
-| Storage                  | 128GB / 256GB                                   |
-| Battery                  | Removable Li-Ion 3905 mAh                       |
-| Dimensions               | 162 x 75.5 x 10.5 mm                            |
-| Display                  | 2340 x 1080 (19.5:9), 6.3 inch                  |
-| Rear camera 1            | 48MP, f/1.6 (Wide) Dual LED flash               |
-| Rear camera 2            | 48MP, f/2.2 (Ultra Wide)                        |
+| SoC                      | Qualcomm QCM6490 (SM7325)                       |
+| QCOM Board Platform      | lahaina                                         |
+| CPU                      | (1) x 2.7 GHz Kryo 670 Gold Plus, (3) x 2.4 GHz Kryo 670 Gold, (4) x 1.9 GHz Kryo 670 Silver |
+| GPU                      | Adreno 643                                      |
+| Memory                   | 8GB RAM                                         |
+| Shipping Android version | 13                                              |
+| Storage                  | 256GB                                           |
+| Battery                  | Removable Li-Ion 4200 mAh                       |
+| Dimensions               | 161.6 x 75.83 x 9.6 mm                          |
+| Display                  | 2770 x 1224 (20:9), 6.46 inch                   |
+| Rear camera 1            | 50MP, f/1.88 (Wide) Dual LED flash              |
+| Rear camera 2            | 50MP, f/2.2 (Ultra Wide)                        |
 | Rear camera 3            | TOF 3D (Depth)                                  |
-| Front camera             | 25MP, f/2.2 (Wide)                              |
+| Front camera             | 50MP, f/2.45 (Wide)                             |
 | Network                  | GSM / HSPA / LTE / 5G                           |

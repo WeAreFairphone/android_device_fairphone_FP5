@@ -6,7 +6,7 @@
 
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
-DEVICE_PATH := device/fairphone/FP4
+DEVICE_PATH := device/fairphone/FP5
 
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
@@ -49,7 +49,7 @@ BOARD_SUPPORTS_SOUND_TRIGGER := true
 BOARD_USES_ALSA_AUDIO := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := FP4
+TARGET_BOOTLOADER_BOARD_NAME := FP5
 
 # Display
 TARGET_SCREEN_DENSITY := 440
@@ -229,4 +229,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
-include vendor/fairphone/FP4/BoardConfigVendor.mk
+include vendor/fairphone/FP5/BoardConfigVendor.mk

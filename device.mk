@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/fairphone/FP4/FP4-vendor.mk)
+$(call inherit-product, vendor/fairphone/FP5/FP5-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \

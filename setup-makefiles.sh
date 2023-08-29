@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=FP4
+DEVICE=FP5
 VENDOR=fairphone
 
 # Load extract_utils and do some sanity checks

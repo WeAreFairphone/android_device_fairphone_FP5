@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_FP4.mk
+    $(LOCAL_DIR)/lineage_FP5.mk
