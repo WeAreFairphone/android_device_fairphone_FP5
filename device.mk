@@ -251,6 +251,7 @@ PRODUCT_PACKAGES += \
 # GPS configs
 PRODUCT_PACKAGES += \
     flp.conf \
+    gnss_antenna_info.conf \
     gps.conf \
     izat.conf
 
