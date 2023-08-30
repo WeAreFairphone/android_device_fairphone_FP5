@@ -1,9 +1,9 @@
 <compatibility-matrix version="2.0" type="framework">
     <hal format="hidl" optional="true">
-        <name>vendor.fpsensor.hardware.fpsensorhidlsvc</name>
-        <version>2.0</version>
+        <name>vendor.focaltech.hardware.biometrics.fingerprint</name>
+        <version>1.0</version>
         <interface>
-            <name>IFpsensorHidlSvc</name>
+            <name>IFocalFingerprint</name>
             <instance>default</instance>
         </interface>
     </hal>
