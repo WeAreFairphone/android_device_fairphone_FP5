@@ -406,18 +406,22 @@ PRODUCT_COPY_FILES += \
 # Rootdir
 PRODUCT_PACKAGES += \
     init.class_main.sh \
+    init.kernel.post_boot.sh \
+    init.kernel.post_boot-yupik.sh \
     init.qcom.class_core.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.sh \
     init.qcom.usb.sh \
-    init.qti.dcvs.sh \
+    init.qti.kernel.sh \
+    init.qti.keymaster.sh \
+    init.qti.media.sh \
     init.qti.qcv.sh
 
 PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.usb.rc \
-    init.qti.qcv.rc \
+    init.qti.kernel.rc \
     init.recovery.qcom.rc \
     init.stnfc.rc \
     init.target.rc \

@@ -375,11 +375,6 @@ firmware_directories /vendor/firmware_mnt/image/
 /sys/class/leds/blue     breath       0640    system    system
 /sys/class/leds/blue     trigger      0640    system    system
 
-# LED class vibrator
-/sys/class/leds/vibrator activate     0660    system    system
-/sys/class/leds/vibrator duration     0660    system    system
-/sys/class/leds/vibrator state        0660    system    system
-
 # NPU device
 /dev/msm_npu             0644   system     system
 
@@ -420,6 +415,7 @@ firmware_directories /vendor/firmware_mnt/image/
 /sys/class/graphics/fb*     hdmi_audio_cb            0600    audioserver audio
 
 /sys/class/graphics/fb*     lineptr_value            0664    system  graphics
+/sys/class/drm/sde-crtc-*   lineptr_value            0664    system  graphics
 /sys/class/graphics/fb*     msm_fb_persist_mode      0664    system  graphics
 
 /sys/class/graphics/fb0     idle_time                0664    system  graphics
@@ -491,3 +487,7 @@ firmware_directories /vendor/firmware_mnt/image/
 /sys/devices/platform/soc/*.i2c/i2c-*/*-*/iio:device*   in_temp_raw                     0664    system  system
 /sys/devices/platform/soc/*.i2c/i2c-*/*-*/iio:device*   in_temp_scale                   0664    system  system
 /sys/devices/platform/soc/*.i2c/i2c-*/*-*/iio:device*   in_temp_scale_available         0664    system  system
+/sys/devices/platform/goodix_ts.0/gesture/double_en                                     0666    root    root
+
+#MMITest
+/sys/devices/platform/goodix_ts.0/chip_info                                             0666    system  system

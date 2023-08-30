@@ -234,7 +234,7 @@ on post-fs-data
     mkdir /data/vendor/qtee 0770 system system
 
     #Create folder of camera
-    mkdir /data/vendor/camera 0770 camera camera
+    mkdir /data/vendor/camera 0777 camera camera
 
 
     #Create directory for tftp
@@ -370,6 +370,7 @@ on post-fs-data
 
     #Create dir for TUI
     mkdir /data/vendor/tui 0700 system drmrpc
+    
 
 service nqnfcinfo /system/vendor/bin/nqnfcinfo
     class late_start
@@ -707,10 +708,10 @@ service charger /system/bin/charger
     capabilities SYS_BOOT
     seclabel u:r:charger:s0
 
-service diag_mdlog_start /system/vendor/bin/diag_mdlog
+service diag_mdlog_start /system/vendor/bin/diag_mdlog -c -q 2 -u
     class late_start
-    user shell
-    group system oem_2901 sdcard_rw sdcard_r media_rw
+    user root
+    group system oem_2901 oem_2902 sdcard_rw sdcard_r media_rw shell
     disabled
     oneshot
 
