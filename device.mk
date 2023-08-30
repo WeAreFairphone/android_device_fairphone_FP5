@@ -116,6 +116,7 @@ PRODUCT_PACKAGES += \
 
 # Audio (Hardware)
 PRODUCT_PACKAGES += \
+    audioadsprpcd \
     audio_amplifier.lahaina \
     audio.primary.lahaina \
     audio.r_submix.default \
