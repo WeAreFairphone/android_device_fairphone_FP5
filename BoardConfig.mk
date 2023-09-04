@@ -102,6 +102,10 @@ TARGET_KERNEL_SOURCE := kernel/fairphone/qcm6490
 TARGET_KERNEL_CONFIG := vendor/fp5-qgki_defconfig vendor/fp5.config
 TARGET_KERNEL_NO_GCC := true
 
+# Kernel modules
+BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/vendor_boot.modules.load))
+BOOT_KERNEL_MODULES := $(BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD)
+
 # Media
 TARGET_USES_ION := true
 
