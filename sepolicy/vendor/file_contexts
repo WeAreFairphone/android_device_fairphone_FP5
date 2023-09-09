@@ -6,6 +6,7 @@
 /sys/class/board_id/version                                                u:object_r:tct_mmitest_sysfs:s0
 
 # Fingerprint
+/vendor/bin/hw/vendor\.focaltech\.hardware\.biometrics\.fingerprint@1\.0-service            u:object_r:hal_fingerprint_default_exec:s0
 /data/fpsensor(/.*)?                                                       u:object_r:fpsensor_data_file:s0
 /dev/fpsensor                                                              u:object_r:fpsensor_fp_device:s0
 
