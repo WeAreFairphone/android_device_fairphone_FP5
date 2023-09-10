@@ -32,7 +32,7 @@ import /vendor/etc/init/hw/init.qti.kernel.rc
 
 on early-init
     exec u:r:vendor_modprobe:s0 -- /vendor/bin/vendor_modprobe.sh
-    exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules q6_pdr_dlkm q6_notifier_dlkm snd_event_dlkm apr_dlkm adsp_loader_dlkm q6_dlkm native_dlkm pinctrl_wcd_dlkm pinctrl_lpi_dlkm swr_dlkm platform_dlkm hdmi_dlkm stub_dlkm wcd_core_dlkm wsa883x_dlkm bolero_cdc_dlkm wsa_macro_dlkm va_macro_dlkm rx_macro_dlkm tx_macro_dlkm bt_fm_slim wcd938x_dlkm wcd938x_slave_dlkm wcd937x_dlkm wcd937x_slave_dlkm swr_dmic_dlkm swr_haptics_dlkm machine_dlkm radio-i2c-rtc6226-qca cdsprm
+    exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules q6_pdr_dlkm q6_notifier_dlkm snd_event_dlkm apr_dlkm adsp_loader_dlkm q6_dlkm native_dlkm pinctrl_wcd_dlkm pinctrl_lpi_dlkm swr_dlkm platform_dlkm hdmi_dlkm stub_dlkm wcd_core_dlkm wsa883x_dlkm aw882xx_dlkm bolero_cdc_dlkm wsa_macro_dlkm va_macro_dlkm rx_macro_dlkm tx_macro_dlkm bt_fm_slim wcd938x_dlkm wcd938x_slave_dlkm wcd937x_dlkm wcd937x_slave_dlkm swr_dmic_dlkm swr_haptics_dlkm machine_dlkm radio-i2c-rtc6226-qca cdsprm
     write /proc/sys/kernel/sched_boost 1
     wait /sys/devices/soc0/soc_id
 
@@ -68,6 +68,37 @@ on init
     chmod 0660 /sys/devices/platform/soc/1d84000.ufshc/auto_hibern8
     start logd
 
+    chown system system /sys/class/leds/vibrator_1/trigger
+    chown system system /sys/class/leds/vibrator_1/activate
+    chown system system /sys/class/leds/vibrator_1/brightness
+    chown system system /sys/class/leds/vibrator_1/duration
+    chown system system /sys/class/leds/vibrator_1/state
+    chown system system /sys/class/leds/vibrator_1/loop
+    chown system system /sys/class/leds/vibrator_1/seq
+    chown system system /sys/class/leds/vibrator_1/index
+    chown system system /sys/class/leds/vibrator_1/enable
+    chown system system /sys/class/leds/vibrator_1/rtp
+    chown system system /sys/class/leds/vibrator_1/activate_mode
+
+	# add sensor sysfs node
+    chmod 0666 /sys/emkit/info/proximity
+    chown system system /sys/emkit/info/proximity
+
+	chmod 0666 /sys/emkit/info/acceleration
+    chown system system /sys/emkit/info/acceleration
+
+	chmod 0666 /sys/emkit/info/gyroscope
+    chown system system /sys/emkit/info/gyroscope
+
+	chmod 0666 /sys/emkit/info/magnetic
+    chown system system /sys/emkit/info/magnetic
+
+	chmod 0666 /sys/emkit/info/light
+    chown system system /sys/emkit/info/light
+
+	chmod 0666 /sys/emkit/info/pressure
+    chown system system /sys/emkit/info/pressure
+	# add sensor sysfs node
 on early-fs
     start vold
 
@@ -79,6 +110,10 @@ on fs
     chmod 0771 /mnt/vendor/persist
     restorecon_recursive /mnt/vendor/persist
     mkdir /mnt/vendor/persist/data 0700 system system
+    mkdir /mnt/vendor/persist/factory 0771 root system
+    mkdir /mnt/vendor/persist/factory/audio 0771 root system
+    chown root system /mnt/vendor/persist/factory/audio/aw_cali.bin
+    chmod 0664 /mnt/vendor/persist/factory/audio/aw_cali.bin
 
 on fs && property:ro.boot.product.vendor.sku=lahaina
     mkdir /mnt/vendor/spunvm 0660 system system
@@ -99,6 +134,9 @@ on post-fs-data
     # Enable WLAN cold boot calibration
     write /sys/devices/platform/soc/b0000000.qcom,cnss-qca6490/fs_ready 1
 
+    mkdir /data/vendor/focaltech 0760 system system
+    restorecon /data/vendor/focaltech
+
 on early-boot
     start vendor.sensors
 
@@ -112,6 +150,7 @@ on boot
     chown cameraserver cameraserver /dev/cpuset/camera-daemon
     chown cameraserver cameraserver /dev/cpuset/camera-daemon/tasks
     chmod 0660 /dev/cpuset/camera-daemon/tasks
+    chmod 0666 /dev/aw882xx_smartpa
     chown system /sys/devices/platform/soc/990000.i2c/i2c-0/0-0049/trusted_touch_enable
     chmod 0660 /sys/devices/platform/soc/990000.i2c/i2c-0/0-0049/trusted_touch_enable
     chown system /sys/devices/platform/soc/990000.i2c/i2c-0/0-0038/trusted_touch_enable
@@ -138,10 +177,17 @@ on boot
     setprop vendor.usb.qdss.inst.name "qdss_mdm"
     setprop vendor.usb.controller a600000.dwc3
     #Load WLAN driver
-    exec_background u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules/ qca_cld3_wlan qca_cld3_qca6390
-    exec_background u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules/5.4-gki qca_cld3_wlan qca_cld3_qca6390
+    exec_background u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules/ qca_cld3_wlan qca_cld3_qca6750 qca_cld3_qca6390
+    exec_background u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules/5.4-gki qca_cld3_wlan qca_cld3_qca6750 qca_cld3_qca6390
     #Allow access to memory hotplug device attributes
     chown system system /sys/kernel/mem-offline/anon_migrate
+
+    chown system system /dev/focaltech_fp
+    chmod 0660 /dev/focaltech_fp
+    # charging enable
+    chmod 0666 /sys/class/power_supply/battery/user_fcc
+    # charge mode fcc
+    chmod 0666 /sys/class/power_supply/battery/chgmode_fcc
 
 on property:vendor.display.lcd_density=560
    setprop dalvik.vm.heapgrowthlimit 256m
@@ -161,6 +207,11 @@ on charger
     start vendor.power_off_alarm
     setprop sys.usb.controller a600000.dwc3
     setprop sys.usb.configfs 1
+
+on post-fs
+    mkdir /mnt/vendor/persist/camera 0777 system system
+    chown system system /dev/stmvl53l1_ranging
+    chmod 0666 /dev/stmvl53l1_ranging
 
 service vendor.lowi /vendor/bin/lowirpcd
    class core
@@ -223,3 +274,22 @@ service fan_control_turn_off /vendor/bin/fan_control 0
     user root
     disabled
     oneshot
+
+#Begin xueling.chen for [Task][10694283] Add sensor info & otp check on 20210129
+#Begin jialiwei add for dual calibration 20230312
+on post-fs-data
+    chmod 0666 /sys/class/deviceinfo/device_info/CamNameB
+    chmod 0666 /sys/class/deviceinfo/device_info/CamNameB2
+    chmod 0666 /sys/class/deviceinfo/device_info/CamNameF
+    chmod 0666 /sys/class/deviceinfo/device_info/CamOTPB
+    chmod 0666 /sys/class/deviceinfo/device_info/CamOTPB2
+    chmod 0666 /sys/class/deviceinfo/device_info/CamOTPF
+    chmod 0666 /sys/devices/platform/soc/ac4a000.qcom,cci0/ac4a000.qcom,cci0:qcom,eeprom0/calibration_data
+    chmod 0666 /sys/devices/platform/soc/ac4a000.qcom,cci0/ac4a000.qcom,cci0:qcom,eeprom0/calibration_flag
+#end jialiwei add for dual calibration 20230312
+#End   xueling.chen for [Task][10694283] Add sensor info & otp check on 20210129
+    chmod 0666 /sys/class/debug_ois/accgain
+    chmod 0666 /sys/class/debug_ois/afdrift
+    chmod 0666 /sys/class/debug_ois/oisops
+    chmod 0666 /sys/class/debug_ois/oisreg
+
