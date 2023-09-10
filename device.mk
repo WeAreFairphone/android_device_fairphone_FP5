@@ -61,6 +61,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.stnfc.rc \
     init.target.rc \
+    loggy.rc \
     ueventd.qcom.rc
 
 # Partitions
