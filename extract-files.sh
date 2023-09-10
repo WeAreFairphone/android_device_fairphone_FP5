@@ -55,18 +55,8 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        vendor/lib/libsample1.so)
-            sed -i 's|/data/misc/sample1|/data/misc/sample2|g' "${2}"
-            ;;
-        vendor/lib64/libsample2.so)
-            "${PATCHELF}" --remove-needed "libsample3.so" "${2}"
-            "${PATCHELF}" --add-needed "libsample4.so" "${2}"
-            ;;
-        vendor/lib/libsample5.so)
-            "${PATCHELF}" --replace-needed "libsample6.so" "libsample7.so" "${2}"
-            ;;
-        vendor/lib/libsample7.so)
-            "${PATCHELF}" --set-soname "libsample7.so" "${2}"
+        vendor/etc/libnfc-hal-st.conf)
+            sed -i 's|STNFC_HAL_LOGLEVEL=.*|STNFC_HAL_LOGLEVEL=0x12|g' "${2}"
             ;;
     esac
 }
