@@ -251,6 +251,25 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
+# Media
+PRODUCT_PACKAGES += \
+    libavservices_minijail \
+    libavservices_minijail.vendor
+
+# Media (Codec2)
+PRODUCT_PACKAGES += \
+    libcodec2_hidl@1.0.vendor
+
+# OMX
+PRODUCT_PACKAGES += \
+    libOmxAacEnc \
+    libOmxAmrEnc \
+    libOmxCore \
+    libOmxEvrcEnc \
+    libOmxG711Enc \
+    libOmxQcelp13Enc \
+    libstagefrighthw
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
