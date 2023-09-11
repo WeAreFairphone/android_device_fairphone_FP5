@@ -332,6 +332,16 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor \
     libvndfwk_detect_jni.qti.vendor
 
+# RIL
+PRODUCT_PACKAGES += \
+    android.hardware.radio@1.5.vendor \
+    android.hardware.radio.config@1.2.vendor \
+    android.hardware.radio.deprecated@1.0.vendor \
+    android.hardware.secure_element@1.2.vendor \
+    libjson \
+    libprotobuf-cpp-full \
+    librmnetctl
+
 # Shipping API 
 PRODUCT_SHIPPING_API_LEVEL := 33
 
