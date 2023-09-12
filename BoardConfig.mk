@@ -137,5 +137,21 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # Security
 VENDOR_SECURITY_PATCH := 2023-08-05
 
+# Verified Boot
+BOARD_AVB_ENABLE := true
+ifneq (,$(wildcard $(KEYS_DIR)/avb_murena_rsa4096.pem))
+BOARD_AVB_ALGORITHM := SHA256_RSA4096
+BOARD_AVB_KEY_PATH := $(KEYS_DIR)/avb_murena_rsa4096.pem
+endif
+BOARD_AVB_VBMETA_SYSTEM := system system_ext product
+BOARD_AVB_VBMETA_SYSTEM_ALGORITHM := SHA256_RSA4096
+ifneq (,$(wildcard $(KEYS_DIR)/avb_murena_rsa4096.pem))
+BOARD_AVB_VBMETA_SYSTEM_KEY_PATH := $(KEYS_DIR)/avb_murena_rsa4096.pem
+else
+BOARD_AVB_VBMETA_SYSTEM_KEY_PATH := external/avb/test/data/testkey_rsa4096.pem
+endif
+BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
+BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 2
+
 # Include the proprietary files BoardConfig.
 include vendor/fairphone/FP5/BoardConfigVendor.mk
