@@ -487,7 +487,7 @@ firmware_directories /vendor/firmware_mnt/image/
 /sys/devices/platform/soc/*.i2c/i2c-*/*-*/iio:device*   in_temp_raw                     0664    system  system
 /sys/devices/platform/soc/*.i2c/i2c-*/*-*/iio:device*   in_temp_scale                   0664    system  system
 /sys/devices/platform/soc/*.i2c/i2c-*/*-*/iio:device*   in_temp_scale_available         0664    system  system
-/sys/devices/platform/goodix_ts.0/gesture/double_en                                     0666    root    root
+/sys/devices/platform/goodix_ts.0                       gesture/double_en               0666    root    root
 
 #MMITest
-/sys/devices/platform/goodix_ts.0/chip_info                                             0666    system  system
+/sys/devices/platform/goodix_ts.0                       chip_info                       0666    system  system
