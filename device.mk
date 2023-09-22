@@ -318,6 +318,7 @@ PRODUCT_PACKAGES += \
 # Overlay
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
+    eCameraTarget \
     FrameworksResCommon \
     FrameworksResTarget \
     SystemUIResCommon \
