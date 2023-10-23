@@ -1,4 +1,4 @@
-# Unpinned blobs from Fairphone/FP5/FP5:13/TKQ1.230127.002/TT3G:user/release-keys
+# Unpinned blobs from Fairphone/FP5/FP5:13/TKQ1.230127.002/TT3L:user/release-keys
 
 # ACDBs
 vendor/etc/acdbdata/IDP/lahaina-yupikidp-snd-card/IDP_Yupik_Bluetooth_cal.acdb
