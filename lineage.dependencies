@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_kernel_fairphone_sm7225",
-    "target_path": "kernel/fairphone/sm7225"
+    "repository": "WeAreFairphone/android_kernel_fairphone_qcm6490",
+    "target_path": "kernel/fairphone/qcm6490"
   }
 ]
