@@ -65,5 +65,5 @@
     <bool name="config_wifiAllowMultipleNetworksOnSameAwareNdi">true</bool>
 
     <!-- Do not translate. Default access point SSID used for tethering -->
-    <string name="wifi_tether_configure_ssid_default" translatable="false">Fairphone 4 5G</string>
+    <string name="wifi_tether_configure_ssid_default" translatable="false">Fairphone 5 5G</string>
 </resources>
