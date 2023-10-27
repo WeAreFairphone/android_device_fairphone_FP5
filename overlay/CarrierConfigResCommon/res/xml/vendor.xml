@@ -423,7 +423,7 @@
         <boolean name="show_wifi_calling_icon_in_status_bar_bool" value="true" />
         <string name="status_hint_label_wifi_call">WiFi Calling</string>
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -519,7 +519,7 @@
         <boolean name="show_wifi_calling_icon_in_status_bar_bool" value="true" />
         <boolean name="show_wfc_location_privacy_policy_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_use_ims_first_for_emergency_bool" value="true" />
@@ -877,8 +877,8 @@
         <string name="status_hint_label_wifi_call">Appel WiFi</string>
         <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <int name="maxMessageSize" value="307200" />
@@ -976,7 +976,7 @@
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="show_wfc_location_privacy_policy_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <int name="maxMessageSize" value="1024000" />
@@ -1027,7 +1027,7 @@
         <boolean name="show_wifi_calling_icon_in_status_bar_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
@@ -1257,7 +1257,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
     </carrier_config>
     <carrier_config mcc="222" mnc="06">
@@ -1316,8 +1316,8 @@
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <boolean name="show_wifi_calling_icon_in_status_bar_bool" value="true" />
         <string name="status_hint_label_wifi_call">WiFi Call</string>
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_use_ims_first_for_emergency_bool" value="true" />
@@ -1364,7 +1364,7 @@
         <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
         <boolean name="show_wifi_calling_icon_in_status_bar_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="10" />
@@ -1915,8 +1915,8 @@
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_use_ims_first_for_emergency_bool" value="true" />
         <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="vt_ims_enabled" value="false" />
         <boolean name="vt_toggle_show" value="false" />
@@ -1964,8 +1964,8 @@
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_use_ims_first_for_emergency_bool" value="true" />
         <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="vt_ims_enabled" value="false" />
         <boolean name="vt_toggle_show" value="false" />
@@ -1999,7 +1999,7 @@
         <int name="wfc_spn_format_idx_int" value="1" />
         <string name="customer_support_line_number">+31 20 788 4400</string>
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -2024,7 +2024,7 @@
         <int name="wfc_spn_format_idx_int" value="1" />
         <string name="customer_support_line_number">+31 20 788 4400</string>
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -2051,7 +2051,7 @@
         <int name="wfc_spn_format_idx_int" value="1" />
         <string name="customer_support_line_number">+31 20 788 4400</string>
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -2081,7 +2081,7 @@
         <int name="wfc_spn_format_idx_int" value="1" />
         <string name="customer_support_line_number">+31 20 788 4400</string>
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -2111,7 +2111,7 @@
         <int name="wfc_spn_format_idx_int" value="1" />
         <string name="customer_support_line_number">+31 20 788 4400</string>
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -2141,7 +2141,7 @@
         <int name="wfc_spn_format_idx_int" value="1" />
         <string name="customer_support_line_number">+31 20 788 4400</string>
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -2171,7 +2171,7 @@
         <int name="wfc_spn_format_idx_int" value="1" />
         <string name="customer_support_line_number">+31 20 788 4400</string>
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -2198,7 +2198,7 @@
         <int name="wfc_spn_format_idx_int" value="1" />
         <string name="customer_support_line_number">+31 20 788 4400</string>
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -2223,7 +2223,7 @@
         <int name="wfc_spn_format_idx_int" value="1" />
         <string name="customer_support_line_number">+31 20 788 4400</string>
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -2248,7 +2248,7 @@
         <int name="wfc_spn_format_idx_int" value="1" />
         <string name="customer_support_line_number">+31 20 788 4400</string>
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -2273,7 +2273,7 @@
         <int name="wfc_spn_format_idx_int" value="1" />
         <string name="customer_support_line_number">+31 20 788 4400</string>
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -2300,7 +2300,7 @@
         <int name="wfc_spn_format_idx_int" value="1" />
         <string name="customer_support_line_number">+31 20 788 4400</string>
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -2327,7 +2327,7 @@
         <int name="wfc_spn_format_idx_int" value="1" />
         <string name="customer_support_line_number">+31 20 788 4400</string>
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -2365,8 +2365,8 @@
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <boolean name="wfc_toggle_show" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <string-array name="ecc_num_list_array" num="3">
@@ -2391,8 +2391,8 @@
         <boolean name="show_wifi_calling_icon_in_status_bar_bool" value="true" />
         <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="false" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -2420,7 +2420,7 @@
         <int name="wfc_spn_format_idx_int" value="1" />
         <string name="customer_support_line_number">+31 20 788 4400</string>
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -2511,8 +2511,8 @@
         <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
         <boolean name="show_wifi_calling_icon_in_status_bar_bool" value="true" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -2583,7 +2583,7 @@
         <string name="status_hint_label_wifi_call">WiFi Call</string>
         <boolean name="show_wifi_calling_summary_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -2707,7 +2707,7 @@
         <string name="status_hint_label_wifi_call">WiFi Call</string>
         <boolean name="show_wifi_calling_summary_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_use_ims_first_for_emergency_bool" value="false" />
@@ -2730,7 +2730,7 @@
         <string name="status_hint_label_wifi_call">WiFi Call</string>
         <boolean name="show_wifi_calling_summary_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_use_ims_first_for_emergency_bool" value="false" />
@@ -2864,14 +2864,14 @@
         <boolean name="hide_lte_plus_data_icon_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="10" />
         <int name="maxMessageSize" value="307200" />
         <string name="status_hint_label_wifi_call">WLAN Call</string>
         <boolean name="wfc_toggle_show" value="true" />
         <boolean name="show_wifi_calling_summary_bool" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="10" />
         <boolean name="show_wifi_calling_icon_in_status_bar_bool" value="true" />
         <int name="wfc_spn_format_idx_int" value="2" />
@@ -3148,8 +3148,8 @@
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <boolean name="wfc_toggle_show" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
         <int name="emergency_notification_delay_int" value="5000" />
@@ -3201,8 +3201,8 @@
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <boolean name="sms_ims_enabled" value="true" />
         <boolean name="carrier_use_ims_first_for_emergency_bool" value="true" />
         <string name="default_vm_number_string">5500</string>
@@ -3271,14 +3271,14 @@
         <boolean name="hide_lte_plus_data_icon_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="10" />
         <int name="maxMessageSize" value="307200" />
         <string name="status_hint_label_wifi_call">WLAN Call</string>
         <boolean name="wfc_toggle_show" value="true" />
         <boolean name="show_wifi_calling_summary_bool" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="10" />
         <boolean name="show_wifi_calling_icon_in_status_bar_bool" value="true" />
         <int name="wfc_spn_format_idx_int" value="2" />
@@ -3711,7 +3711,7 @@
     <carrier_config mcc="405" mnc="840">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -3741,7 +3741,7 @@
     <carrier_config mcc="405" mnc="854">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -3771,7 +3771,7 @@
     <carrier_config mcc="405" mnc="855">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -3801,7 +3801,7 @@
     <carrier_config mcc="405" mnc="856">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -3831,7 +3831,7 @@
     <carrier_config mcc="405" mnc="857">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -3861,7 +3861,7 @@
     <carrier_config mcc="405" mnc="858">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -3891,7 +3891,7 @@
     <carrier_config mcc="405" mnc="859">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -3921,7 +3921,7 @@
     <carrier_config mcc="405" mnc="860">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -3951,7 +3951,7 @@
     <carrier_config mcc="405" mnc="861">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -3981,7 +3981,7 @@
     <carrier_config mcc="405" mnc="862">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -4011,7 +4011,7 @@
     <carrier_config mcc="405" mnc="863">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -4041,7 +4041,7 @@
     <carrier_config mcc="405" mnc="864">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -4071,7 +4071,7 @@
     <carrier_config mcc="405" mnc="865">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -4101,7 +4101,7 @@
     <carrier_config mcc="405" mnc="866">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -4131,7 +4131,7 @@
     <carrier_config mcc="405" mnc="867">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -4161,7 +4161,7 @@
     <carrier_config mcc="405" mnc="868">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -4191,7 +4191,7 @@
     <carrier_config mcc="405" mnc="869">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -4221,7 +4221,7 @@
     <carrier_config mcc="405" mnc="870">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -4251,7 +4251,7 @@
     <carrier_config mcc="405" mnc="871">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -4281,7 +4281,7 @@
     <carrier_config mcc="405" mnc="872">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -4311,7 +4311,7 @@
     <carrier_config mcc="405" mnc="873">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -4341,7 +4341,7 @@
     <carrier_config mcc="405" mnc="874">
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
@@ -5618,8 +5618,8 @@
         <boolean name="wfc_toggle_show" value="false" />
         <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="false" />
         <boolean name="show_wifi_calling_icon_in_status_bar_bool" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
-        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
     </carrier_config>
@@ -5633,7 +5633,7 @@
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="wfc_toggle_show" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
     </carrier_config>
     <carrier_config mcc="505" mnc="03">
@@ -5672,7 +5672,7 @@
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <boolean name="wfc_toggle_show" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
     </carrier_config>
     <carrier_config mcc="284" mnc="03">
@@ -5711,7 +5711,7 @@
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <boolean name="wfc_toggle_show" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
     </carrier_config>
     <carrier_config mcc="302" mnc="220">
@@ -5724,7 +5724,7 @@
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <boolean name="wfc_toggle_show" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
     </carrier_config>
     <carrier_config mcc="294" mnc="01">
