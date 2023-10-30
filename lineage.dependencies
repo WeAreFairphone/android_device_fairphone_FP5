@@ -1,6 +1,8 @@
 [
   {
-    "repository": "android_kernel_fairphone_sm7225",
-    "target_path": "kernel/fairphone/sm7225"
+    "remote": "github.com",
+    "repository": "WeAreFairphone/android_kernel_fairphone_qcm6490",
+    "target_path": "kernel/fairphone/qcm6490",
+    "branch": "staging/lineage-20"
   }
 ]
