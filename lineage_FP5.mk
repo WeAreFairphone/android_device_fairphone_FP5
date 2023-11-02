@@ -26,4 +26,4 @@ PRODUCT_NAME := lineage_FP5
 
 PRODUCT_GMS_CLIENTID_BASE := android-alcatel
 
-BUILD_FINGERPRINT := Fairphone/FP5/FP5:13/TKQ1.230127.002/TT3L:user/release-keys
+BUILD_FINGERPRINT := Fairphone/FP5/FP5:13/TKQ1.230127.002/TT3P:user/release-keys
