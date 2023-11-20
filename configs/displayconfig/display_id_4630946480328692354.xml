@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<displayConfiguration>
+    <screenBrightnessMap>
+        <point>
+            <value>0.004</value>
+            <nits>6.0</nits>
+        </point>
+        <point>
+            <value>0.829995</value>
+            <nits>800</nits>
+        </point>
+        <point>
+            <value>1.0</value>
+            <nits>880</nits>
+        </point>
+    </screenBrightnessMap>
+    <screenBrightnessDefault>0.4</screenBrightnessDefault>
+    <lightSensor>
+        <type>qti.sensor.light.back</type>
+    </lightSensor>
+    <ambientLightHorizonLong>8000</ambientLightHorizonLong>
+</displayConfiguration>
