@@ -325,6 +325,7 @@ PRODUCT_PACKAGES += \
     eCameraTarget \
     FrameworksResCommon \
     FrameworksResTarget \
+    SettingsResCommon \
     SystemUIResCommon \
     SystemUIResTarget \
     TelephonyResCommon \
