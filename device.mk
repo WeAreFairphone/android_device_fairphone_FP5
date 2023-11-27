@@ -320,13 +320,12 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # Overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
-
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
     eCameraTarget \
     FrameworksResCommon \
     FrameworksResTarget \
+    SettingsResCommon \
     SystemUIResCommon \
     SystemUIResTarget \
     TelephonyResCommon \
