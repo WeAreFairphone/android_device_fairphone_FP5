@@ -123,7 +123,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 
 BOARD_KERNEL_IMAGE_NAME := Image
 
-TARGET_KERNEL_SOURCE := kernel/fairphone/FP5
+TARGET_KERNEL_SOURCE := kernel/fairphone/qcm6490
 TARGET_KERNEL_CONFIG := vendor/lahaina-qgki_defconfig
 
 include device/fairphone/FP5-kernel/BoardConfigKernel.mk
