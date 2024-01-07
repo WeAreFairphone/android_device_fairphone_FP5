@@ -469,8 +469,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
-# Kernel
-$(call inherit-product, device/fairphone/FP5-kernel/kernel.mk)
-
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/fairphone/FP5/FP5-vendor.mk)
