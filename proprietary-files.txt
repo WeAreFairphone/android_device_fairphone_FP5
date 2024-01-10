@@ -1541,9 +1541,7 @@ vendor/bin/cnss-daemon
 vendor/etc/init/init.vendor.wlan.rc
 vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/etc/wifi/wpa_supplicant_overlay.conf
-vendor/etc/wifi/qca6390/WCNSS_qcom_cfg.ini
 vendor/etc/wifi/qca6750/WCNSS_qcom_cfg.ini
-vendor/etc/wifi/wlan/WCNSS_qcom_cfg.ini
 
 # WiFi Display (system)
 system/framework/WfdCommon.jar
