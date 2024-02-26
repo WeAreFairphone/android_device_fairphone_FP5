@@ -28,5 +28,9 @@
 # Pixelworks
 /vendor/bin/hw/vendor\.pixelworks\.hardware\.feature\.irisfeature-service  u:object_r:hal_graphics_composer_default_exec:s0
 
+# Radio
+/dev/block/platform/soc/1d84000\.ufshc/by-name/study                       u:object_r:vendor_modem_efs_partition_device:s0
+/dev/block/platform/soc/1d84000\.ufshc/by-name/studybk_[ab]                u:object_r:vendor_custom_ab_block_device:s0
+
 # Vibrator
 /vendor/bin/hw/vendor\.qti\.hardware\.vibrator\.service\.FP5               u:object_r:hal_vibrator_default_exec:s0
