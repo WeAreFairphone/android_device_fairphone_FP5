@@ -1,4 +1,4 @@
-# Firmware from Fairphone/FP5/FP5:13/TKQ1.230127.002/TT45:user/release-keys
+# Firmware from Fairphone/FP5/FP5:13/TKQ1.230127.002/TT46:user/release-keys
 
 abl.elf:abl.img;AB
 aop.mbn:aop.img;AB
